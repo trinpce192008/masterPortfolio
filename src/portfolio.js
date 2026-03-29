@@ -175,6 +175,28 @@ number: "0337010437",
 email_address: "[trinp.ce192008@gmail.com](mailto:trinp.ce192008@gmail.com)"
 };
 
+// Competitive Sites
+const competitiveSites = {
+competitiveSites: [
+{
+siteName: "GitHub",
+iconifyClassname: "simple-icons:github",
+style: {
+color: "#181717"
+},
+profileLink: "[https://github.com/trinpce192008](https://github.com/trinpce192008)"
+},
+{
+siteName: "LinkedIn",
+iconifyClassname: "simple-icons:linkedin",
+style: {
+color: "#0077B5"
+},
+profileLink: "[https://linkedin.com/in/trinpce192008](https://linkedin.com/in/trinpce192008)"
+}
+]
+};
+
 export {
 settings,
 seo,
@@ -185,5 +207,6 @@ degrees,
 certifications,
 experience,
 githubProfile,
-contactInfo
+contactInfo,
+competitiveSites
 };
