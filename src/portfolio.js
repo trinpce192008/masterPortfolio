@@ -170,6 +170,28 @@ description:
 avatar_image_path: "projects_image.svg"
 };
 
+// Publications
+const publications = {
+data: [
+{
+id: "malware-analysis",
+name: "Redline Malware Analysis Report",
+createdAt: "2026",
+description:
+"Static and dynamic malware analysis of Redline and Lumma Stealer",
+url: ""
+},
+{
+id: "system-monitoring",
+name: "System Monitoring using Monit",
+createdAt: "2025",
+description:
+"Observability and anomaly detection for server monitoring",
+url: ""
+}
+]
+};
+
 // GitHub Section
 const githubProfile = {
 username: "trinpce192008"
@@ -240,5 +262,6 @@ githubProfile,
 contactInfo,
 competitiveSites,
 contactPageData,
-projectsHeader
+projectsHeader,
+publications
 };
