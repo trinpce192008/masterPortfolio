@@ -192,6 +192,13 @@ url: ""
 ]
 };
 
+// Publications Header
+const publicationsHeader = {
+title: "Publications",
+description: "Security research reports and technical writeups",
+avatar_image_path: "projects_image.svg"
+};
+
 // GitHub Section
 const githubProfile = {
 username: "trinpce192008"
@@ -263,5 +270,6 @@ contactInfo,
 competitiveSites,
 contactPageData,
 projectsHeader,
-publications
+publications,
+publicationsHeader
 };
