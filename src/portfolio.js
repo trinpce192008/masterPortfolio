@@ -162,6 +162,14 @@ color: "#0879bf"
 ]
 };
 
+// Projects Header
+const projectsHeader = {
+title: "Projects",
+description:
+"My cybersecurity and system monitoring projects including malware analysis and security research.",
+avatar_image_path: "projects_image.svg"
+};
+
 // GitHub Section
 const githubProfile = {
 username: "trinpce192008"
@@ -231,5 +239,6 @@ experience,
 githubProfile,
 contactInfo,
 competitiveSites,
-contactPageData
+contactPageData,
+projectsHeader
 };
