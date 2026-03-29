@@ -53,11 +53,11 @@ const socialMediaLinks = [
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-  //   name: "YouTube",
-  //   link: "https://youtube.com/c/DevSense19",
-  //   fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
-  //   backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
-  // },
+    name: "YouTube",
+    link: "",
+    fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
+    backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
+  },
   {
     name: "Gmail",
     link: "mailto:trinp.ce192008@gmail.com",
@@ -65,20 +65,20 @@ const socialMediaLinks = [
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
-  //   name: "X-Twitter",
-  //   link: "https://twitter.com/ashutosh_1919",
-  //   fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
-  //   backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
-  // },
+    name: "X-Twitter",
+    link: "",
+    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
+    backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
+  },
   {
   //   name: "Facebook",
-  //   link: "https://www.facebook.com/laymanbrother.19/",
+  //   link: "",
   //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
   //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   // },
   {
   //   name: "Instagram",
-  //   link: "https://www.instagram.com/layman_brother/",
+  //   link: "",
   //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
   //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   // },
