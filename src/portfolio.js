@@ -1,259 +1,223 @@
-/* Change this file to get your personal Portfolio */
+/* Change this file to get your personal Porfolio */
 
 // Website related settings
 const settings = {
-isSplash: false
+isSplash: false,
 };
 
-//SEO Related Settings
+//SEO Related settings
 const seo = {
-title: "Nguyen Pham Tri Portfolio",
+title: "Tri Nguyen | Cybersecurity Portfolio",
 description:
-"Cybersecurity student focusing on malware analysis, threat detection and security research.",
+"Cybersecurity student focusing on malware analysis, system monitoring and security research.",
 og: {
-title: "Nguyen Pham Tri Portfolio",
+title: "Tri Nguyen Portfolio",
 type: "website",
-url: "[https://trinpce192008.github.io/](https://trinpce192008.github.io/)"
-}
+url: "https://trinpce192008.github.io/",
+},
 };
 
 //Home Page
 const greeting = {
-username: "Nguyen Pham Tri",
 title: "Nguyen Pham Tri",
+logo_name: "TriNguyen",
+nickname: "Cybersecurity Student",
 subTitle:
-"Cybersecurity Student focused on Malware Analysis, Network Security and Threat Detection. Seeking Cybersecurity Internship.",
+"Cybersecurity student interested in Malware Analysis, System Monitoring and Security Research.",
 resumeLink: "",
-displayGreeting: true
+portfolio_repository:
+"https://github.com/trinpce192008/masterPortfolio",
+githubProfile: "https://github.com/trinpce192008",
 };
 
-// Social Media Links
 const socialMediaLinks = [
 {
 name: "Github",
-link: "[https://github.com/trinpce192008](https://github.com/trinpce192008)",
+link: "https://github.com/trinpce192008",
 fontAwesomeIcon: "fa-github",
-backgroundColor: "#181717"
+backgroundColor: "#181717",
 },
 {
 name: "LinkedIn",
-link: "[https://linkedin.com/in/trinpce192008](https://linkedin.com/in/trinpce192008)",
+link: "",
 fontAwesomeIcon: "fa-linkedin-in",
-backgroundColor: "#0077B5"
+backgroundColor: "#0077B5",
 },
 {
 name: "Gmail",
-link: "mailto:trinp[.ce192008@gmail.com](mailto:.ce192008@gmail.com)",
+link: "mailto:",
 fontAwesomeIcon: "fa-google",
-backgroundColor: "#D14836"
-}
+backgroundColor: "#D14836",
+},
 ];
 
-// Skills Section
 const skills = {
 data: [
 {
 title: "Cybersecurity",
-fileName: "CloudInfraImg",
+fileName: "DataScienceImg",
 skills: [
-"⚡ Malware Analysis and Reverse Engineering",
-"⚡ Network Security and Traffic Analysis",
-"⚡ Linux System Security",
-"⚡ Incident Response and Threat Detection"
+"⚡ Malware analysis (Static & Dynamic)",
+"⚡ Network security and monitoring",
+"⚡ System security and threat detection",
 ],
 softwareSkills: [
 {
 skillName: "Wireshark",
-fontAwesomeClassname: "simple-icons:wireshark"
+fontAwesomeClassname: "simple-icons:wireshark",
 },
 {
-skillName: "Kali Linux",
-fontAwesomeClassname: "simple-icons:kalilinux"
+skillName: "Burp Suite",
+fontAwesomeClassname: "simple-icons:burpsuite",
+},
+{
+skillName: "Metasploit",
+fontAwesomeClassname: "simple-icons:metasploit",
+},
+],
+},
+{
+title: "Programming",
+fileName: "FullStackImg",
+skills: [
+"⚡ Java programming",
+"⚡ Python scripting",
+"⚡ Bash scripting",
+],
+softwareSkills: [
+{
+skillName: "Java",
+fontAwesomeClassname: "simple-icons:java",
 },
 {
 skillName: "Python",
-fontAwesomeClassname: "simple-icons:python"
+fontAwesomeClassname: "simple-icons:python",
 },
-{
-skillName: "Linux",
-fontAwesomeClassname: "simple-icons:linux"
+],
 },
-{
-skillName: "Nmap",
-fontAwesomeClassname: "simple-icons:nmap"
-}
-]
-}
-]
+],
 };
 
-// Education Section
+// Education Page
+const competitiveSites = {
+competitiveSites: [],
+};
+
 const degrees = {
 degrees: [
 {
 title: "FPT University",
-subtitle: "Bachelor of Information Security",
+subtitle: "Information Security",
 logo_path: "fpt_logo.png",
+alt_name: "FPT University",
 duration: "2023 - Present",
 descriptions: [
-"⚡ Studying Cybersecurity and Information Security",
-"⚡ Malware Analysis and Network Security",
-"⚡ Linux System and Networking"
-]
-}
-]
+"⚡ Major in Information Security",
+"⚡ Focus on Malware Analysis and System Security",
+],
+website_link: "",
+},
+],
 };
 
-// Certifications
 const certifications = {
 certifications: [
 {
-title: "Cisco CyberOps Associate",
-subtitle: "Cisco",
-logo_path: "cisco.png",
+title: "Google Cybersecurity",
+subtitle: "- Coursera",
+logo_path: "google_logo.png",
 certificate_link: "",
-alt_name: "CyberOps"
+alt_name: "Coursera",
+color_code: "#4285F499",
 },
-{
-title: "Object Oriented Programming in Java",
-subtitle: "Coursera",
-logo_path: "coursera.png",
-certificate_link: "",
-alt_name: "Java OOP"
-}
-]
+],
 };
 
-// Experience Section
+// Experience Page
 const experience = {
 title: "Projects",
 subtitle: "Cybersecurity Projects",
 description:
-"Hands-on cybersecurity and malware analysis projects",
-
+"Cybersecurity and Malware Analysis Projects",
+header_image_path: "experience.svg",
 sections: [
 {
-title: "Cybersecurity Projects",
+title: "Projects",
 experiences: [
 {
-title: "Redline Malware Analysis",
+title: "RedLine Malware Analysis",
 company: "Personal Project",
 company_url: "",
 logo_path: "malware.png",
-duration: "Feb 2026 - Mar 2026",
+duration: "2026",
 location: "Vietnam",
 description:
-"Static and dynamic malware analysis of Redline and Lumma Stealer",
-color: "#000000"
+"Static and dynamic analysis of Redline and Lumma stealer",
+color: "#000000",
 },
 {
 title: "System Monitoring using Monit",
 company: "Personal Project",
 company_url: "",
 logo_path: "monitor.png",
-duration: "Jun 2025 - Jul 2025",
+duration: "2025",
 location: "Vietnam",
 description:
-"Built monitoring dashboard and anomaly detection system",
-color: "#0879bf"
-}
-]
-}
-]
+"Built system monitoring dashboard using Monit",
+color: "#0879bf",
+},
+],
+},
+],
 };
 
-// Projects Header
+// Projects Page
 const projectsHeader = {
 title: "Projects",
 description:
-"My cybersecurity and system monitoring projects including malware analysis and security research.",
-avatar_image_path: "projects_image.svg"
+"Cybersecurity and malware analysis projects",
+avatar_image_path: "projects_image.svg",
 };
 
-// Publications
-const publications = {
-data: [
-{
-id: "malware-analysis",
-name: "Redline Malware Analysis Report",
-createdAt: "2026",
-description:
-"Static and dynamic malware analysis of Redline and Lumma Stealer",
-url: ""
-},
-{
-id: "system-monitoring",
-name: "System Monitoring using Monit",
-createdAt: "2025",
-description:
-"Observability and anomaly detection for server monitoring",
-url: ""
-}
-]
-};
-
-// Publications Header
 const publicationsHeader = {
 title: "Publications",
-description: "Security research reports and technical writeups",
-avatar_image_path: "projects_image.svg"
+description: "",
+avatar_image_path: "projects_image.svg",
 };
 
-// GitHub Section
-const githubProfile = {
-username: "trinpce192008"
+const publications = {
+data: [],
 };
 
-// Contact Info
-const contactInfo = {
-title: "Contact Me",
-subtitle: "Cybersecurity Internship Opportunities",
-number: "0337010437",
-email_address: "[trinp.ce192008@gmail.com](mailto:trinp.ce192008@gmail.com)"
-};
-
-// Contact Page Data
+// Contact Page
 const contactPageData = {
 contactSection: {
 title: "Contact Me",
-profile_image_path: "profile.png",
+profile_image_path: "animated_ashutosh.png",
 description:
-"I am available for Cybersecurity Internship opportunities, collaboration, and security research.",
+"Feel free to contact me for cybersecurity collaboration.",
 },
-
+blogSection: {
+title: "",
+subtitle: "",
+link: "",
+avatar_image_path: "blogs_image.svg",
+},
 addressSection: {
-title: "Address",
-subtitle: "Thu Duc, Ho Chi Minh City, Vietnam",
-locality: "Thu Duc",
-country: "Vietnam",
+title: "",
+subtitle: "",
+locality: "",
+country: "",
+region: "",
+postalCode: "",
+streetAddress: "",
+avatar_image_path: "address_image.svg",
+location_map_link: "",
 },
-
 phoneSection: {
-title: "Phone Number",
-subtitle: "+84 337010437"
-}
-};
-
-// Competitive Sites
-const competitiveSites = {
-competitiveSites: [
-{
-siteName: "GitHub",
-iconifyClassname: "simple-icons:github",
-style: {
-color: "#181717"
+title: "",
+subtitle: "",
 },
-profileLink: "[https://github.com/trinpce192008](https://github.com/trinpce192008)"
-},
-{
-siteName: "LinkedIn",
-iconifyClassname: "simple-icons:linkedin",
-style: {
-color: "#0077B5"
-},
-profileLink: "[https://linkedin.com/in/trinpce192008](https://linkedin.com/in/trinpce192008)"
-}
-]
 };
 
 export {
@@ -262,14 +226,12 @@ seo,
 greeting,
 socialMediaLinks,
 skills,
+competitiveSites,
 degrees,
 certifications,
 experience,
-githubProfile,
-contactInfo,
-competitiveSites,
-contactPageData,
 projectsHeader,
+publicationsHeader,
 publications,
-publicationsHeader
+contactPageData,
 };
