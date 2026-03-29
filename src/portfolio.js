@@ -71,17 +71,17 @@ const socialMediaLinks = [
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
   {
-  //   name: "Facebook",
-  //   link: "",
-  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  // },
+    name: "Facebook",
+    link: "",
+    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  },
   {
-  //   name: "Instagram",
-  //   link: "",
-  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  // },
+    name: "Instagram",
+    link: "",
+    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  },
 ];
 
 const skills = {
@@ -130,8 +130,8 @@ const skills = {
     //       skillName: "Deeplearning",
     //       imageSrc: "deeplearning_ai_logo.png",
     //     },
-    //   ],
-    // },
+      ],
+    },
     // {
     //   title: "Full Stack Development",
     //   fileName: "FullStackImg",
@@ -321,7 +321,7 @@ const skills = {
 //         },
 //       ],
 //     },
-//   ],
+  ],
 // };
 
 // Education Page
