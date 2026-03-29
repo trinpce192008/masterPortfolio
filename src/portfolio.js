@@ -529,7 +529,7 @@ const experience = {
   description:
     "   ",
   header_image_path: "experience.svg",
-  sections: [
+  // sections: [
     // {
     //   title: "Work",
     //   work: false,
@@ -578,7 +578,7 @@ const experience = {
         //     "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
         //   color: "#fc1f20",
         // },
-      ],
+      // ],
     },
     // {
     //   title: "Internships",
@@ -687,7 +687,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    " ",
   avatar_image_path: "projects_image.svg",
 };
 
