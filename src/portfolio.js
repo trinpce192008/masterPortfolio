@@ -175,6 +175,28 @@ number: "0337010437",
 email_address: "[trinp.ce192008@gmail.com](mailto:trinp.ce192008@gmail.com)"
 };
 
+// Contact Page Data
+const contactPageData = {
+contactSection: {
+title: "Contact Me",
+profile_image_path: "profile.png",
+description:
+"I am available for Cybersecurity Internship opportunities, collaboration, and security research.",
+},
+
+addressSection: {
+title: "Address",
+subtitle: "Thu Duc, Ho Chi Minh City, Vietnam",
+locality: "Thu Duc",
+country: "Vietnam",
+},
+
+phoneSection: {
+title: "Phone Number",
+subtitle: "+84 337010437"
+}
+};
+
 // Competitive Sites
 const competitiveSites = {
 competitiveSites: [
@@ -208,5 +230,6 @@ certifications,
 experience,
 githubProfile,
 contactInfo,
-competitiveSites
+competitiveSites,
+contactPageData
 };
